@@ -12,8 +12,8 @@ angular.module('angularjsPlaygroundApp')
       $scope.submitButtonDisabled = true;
       if (contactform.$valid) {
         $scope.submitButtonDisabled = true;
-        $scope.resultMessage = "Your message was sent.";
-        $scope.result='bg-success';
+        $scope.resultMessage = 'Your message was sent.';
+        $scope.result = 'bg-success';
       }
     }
   });
