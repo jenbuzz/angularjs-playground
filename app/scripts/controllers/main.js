@@ -12,7 +12,7 @@ angular.module('angularjsPlaygroundApp')
 
     // Function to help set the active navigation item.
     $scope.isActive = function(route) {
-        return route === $location.path();
+      return route === $location.path();
     }
 
   });
