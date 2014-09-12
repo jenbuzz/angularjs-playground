@@ -1,1 +1,7 @@
-infinite scroll
+<div ng-controller='InfinitescrollCtrl'>
+  <div infinite-scroll='loadMore()' infinite-scroll-distance='2'>
+    <p ng-repeat='number in numbers'>
+      <span>{{number}}</span>
+    </p>
+  </div>
+</div>
