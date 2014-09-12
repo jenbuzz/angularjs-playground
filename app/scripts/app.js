@@ -27,6 +27,10 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl'
       })
+      .when('/infinitescroll', {
+        templateUrl: 'views/infinitescroll.html',
+        controller: 'InfinitescrollCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
