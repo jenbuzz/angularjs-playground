@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/infinitescroll.html',
         controller: 'InfinitescrollCtrl'
       })
+      .when('/carousel', {
+        templateUrl: 'views/carousel.html',
+        controller: 'CarouselCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
