@@ -5,7 +5,7 @@ angular.module('angularjsPlaygroundApp')
     $scope.myInterval = 5000;
     var slides = $scope.slides = [];
     $scope.addSlide = function() {
-      var newWidth = 600 + slides.length;
+      var newWidth = 730 + slides.length;
       slides.push({
         image: 'http://lorempixel.com/' + newWidth + '/300',
         text: ['More','Extra','Lots of','Surplus'][slides.length % 4] + ' ' +
