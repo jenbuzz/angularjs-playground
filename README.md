@@ -5,3 +5,4 @@ This is a test&play project with AngularJS. The project was initially created us
 ##Features
 - Contact Form
 - Infinite Scroll
+- Carousel
