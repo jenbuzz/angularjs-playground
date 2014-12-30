@@ -37,6 +37,10 @@ angular
         templateUrl: 'views/carousel.html',
         controller: 'CarouselCtrl'
       })
+      .when('/digitalclock', {
+        templateUrl: 'views/digitalclock.html',
+        controller: 'DigitalclockCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
