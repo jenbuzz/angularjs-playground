@@ -6,3 +6,4 @@ This is a test&play project with AngularJS. The project was initially created us
 - Contact Form
 - Infinite Scroll
 - Carousel
+- Digital Clock
