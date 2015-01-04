@@ -7,3 +7,4 @@ This is a test&play project with AngularJS. The project was initially created us
 - Infinite Scroll
 - Carousel
 - Digital Clock
+- Custom Validator
