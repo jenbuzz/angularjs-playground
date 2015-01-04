@@ -29,6 +29,8 @@ angular.module('angularjsPlaygroundApp')
 
             return value;
           }
+
+          return 0;
         });
       },
     }
