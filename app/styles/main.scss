@@ -88,6 +88,19 @@ body {
   margin-bottom: 30px;
 }
 
+/* Custom Validator */
+.custom-validator {
+  margin-bottom: 20px;
+
+  div {
+    margin-top: 5px;
+
+    span {
+      color: #FF0000;
+    }
+  }
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
