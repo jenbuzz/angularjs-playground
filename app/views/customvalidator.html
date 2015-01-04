@@ -1,3 +1,14 @@
 <div ng-controller="CustomvalidatorCtrl">
-  Custom Validator
+  <p>To invoke an error using the custom validator enter <strong>admin</strong>.</p>
+
+  <form name="form" novalidate>
+    <label>Login: </label>
+    <input type="text" name="login" ng-model="login" unique="checkUniqueLogin" required />
+  </form>
+
+  <div ng-show="form.login.$dirty && form.login.$invalid">
+    Invalid:
+      <span ng-show="form.login.$error.required">Enter a login!</span>
+      <span ng-show="form.login.$error.unique">Login already in use!</span>
+  </div>
 </div>
