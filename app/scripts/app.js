@@ -41,6 +41,10 @@ angular
         templateUrl: 'views/digitalclock.html',
         controller: 'DigitalclockCtrl'
       })
+      .when('/customvalidator', {
+        templateUrl: 'views/customvalidator.html',
+        controller: 'CustomvalidatorCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
