@@ -45,6 +45,10 @@ angular
         templateUrl: 'views/customvalidator.html',
         controller: 'CustomvalidatorCtrl'
       })
+      .when('/dialogs', {
+        templateUrl: 'views/dialogs.html',
+        controller: 'DialogsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
