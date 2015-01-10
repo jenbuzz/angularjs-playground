@@ -17,7 +17,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'infinite-scroll',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ngDialog'
   ])
   .config(function ($routeProvider) {
     $routeProvider
