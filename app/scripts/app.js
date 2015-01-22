@@ -53,4 +53,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .run(function() {
+    console.log("app is running!");
   });
