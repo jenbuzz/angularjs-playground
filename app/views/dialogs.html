@@ -1,11 +1,20 @@
 <div ng-controller="DialogsCtrl">
   <ul>
     <li><a href="" ng-click="openDefaultDialog()">Default ngDialog!</a></li>
+    <li><a href="" ng-click="openButtonsDialog()">ngDialog with buttons!</a></li>
   </ul>
 
   <script id="defaultDialog" type="text/ng-template">
     <div class="ngdialog-message">
       <h2>Default ngDialog</h2>
+    </div>
+  </script>
+
+  <script id="buttonsDialog" type="text/ng-template">
+    <div class="ngdialog-message">
+      <h2>ngDialog with buttons</h2>
+      <button type="button" class="ngdialog-button ngdialog-button-secondary" ng-click="closeThisDialog('OK');">OK</button>
+      <button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="closeThisDialog('')">Close</button>
     </div>
   </script>
 </div>
