@@ -5,4 +5,7 @@ angular.module('angularjsPlaygroundApp')
     $scope.openDefaultDialog = function () {
       ngDialog.open({ template: 'defaultDialog' });
     };
+    $scope.openButtonsDialog = function () {
+      ngDialog.open({ template: 'buttonsDialog' });
+    };
   });
