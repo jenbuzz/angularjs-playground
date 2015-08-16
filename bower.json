@@ -18,8 +18,8 @@
     "ngDialog": "0.3.11" 
   },
   "devDependencies": {
-    "angular-mocks": "1.2.16",
-    "angular-scenario": "1.2.16"
+    "angular-mocks": "1.3.0",
+    "angular-scenario": "1.3.0"
   },
   "appPath": "app"
 }
