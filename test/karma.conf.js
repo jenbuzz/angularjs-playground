@@ -30,7 +30,6 @@ module.exports = function(config) {
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/ngDialog/js/ngDialog.js',
       'app/scripts/**/*.js',
-      'test/mock/**/*.js',
       'test/spec/**/*.js'
     ],
 
