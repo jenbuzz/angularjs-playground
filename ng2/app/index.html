@@ -3,9 +3,28 @@
   <head>
     <title>AngularJS 2 Playground</title>
 
+    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
     <script src="../node_modules/systemjs/dist/system.js"></script>
+
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            typescriptOptions: {
+              emitDecoratorMetadata: true
+            },
+            map: {
+              typescript: 'https://cdnjs.cloudflare.com/ajax/libs/typescript/1.0.0/typescript.js'
+            }
+        });
+    </script>
+
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
   </head>
   <body>
     <h1>AngularJS 2 Playground</h1>
+
+    <script>
+        System.import('bootstrap.ts');
+    </script>
   </body>
 </html>
