@@ -3,8 +3,9 @@
   <head>
     <title>AngularJS 2 Playground</title>
 
-    <script src="https://google.github.io/traceur-compiler/bin/traceur.js"></script>
+    <script src="https://code.angularjs.org/tools/traceur-runtime.js"></script>
     <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
 
     <script>
         System.config({
@@ -13,15 +14,23 @@
               emitDecoratorMetadata: true
             },
             map: {
-              typescript: 'https://cdnjs.cloudflare.com/ajax/libs/typescript/1.0.0/typescript.js'
+              app: "./app"
+            },
+            packages: {
+              app: {
+                main: './bootstrap.ts',
+                defaultExtension: 'ts'
+              }
             }
         });
     </script>
 
-    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../node_modules/angular2/bundles/angular2.min.js"></script>
   </head>
   <body>
     <h1>AngularJS 2 Playground</h1>
+
+    <app></app>
 
     <script>
         System.import('bootstrap.ts');

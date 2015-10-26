@@ -6,6 +6,6 @@ import {Component, View} from 'angular2/angular2';
 @View({
   template: '<h2>Welcome to the Playground<h2/>'
 })
-class App {
+export class App {
 
 }
