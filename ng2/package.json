@@ -7,6 +7,7 @@
     "express": "^4.13.3",
     "gulp": "~3.9.0",
     "gulp-typescript": "2.9.2",
-    "systemjs": "0.19.5"
+    "systemjs": "0.19.5",
+    "typescript": "1.6.2"
   }
 }
