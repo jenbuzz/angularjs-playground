@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>AngularJS 2 Playground</title>
+    <script src="../node_modules/angular2/bundles/angular2.sfx.dev.js"></script>
+    <script>
+      (function() {
+        var AppComponent = ng.Component({
+          selector: 'app',
+          template: '<h2>Welcome to the Playground<h2/>'
+        })
+        .Class({
+          constructor: function () { }
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+          ng.bootstrap(AppComponent);
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>AngularJS 2 Playground</h1>
+    <app></app>
+  </body>
+</html>
