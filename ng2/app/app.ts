@@ -4,13 +4,7 @@ import {Component, View} from 'angular2/angular2';
   selector: 'app'
 })
 @View({
-  template: '<h2>Welcome to the Playground Mr. {{ name }}<h2/>',
-  
-  // Example of template file usage
-  // templateUrl: 'template.html'
+  template: '<h2>Welcome to the Playground Mr.<h2/>',
 })
 export class App {
-  constructor() {
-    this.name = 'John Doe';
-  }
 }

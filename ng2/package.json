@@ -3,11 +3,11 @@
   "version": "0.0.1",
   "description": "Angular 2 Playground",
   "dependencies": {
-    "angular2": "2.0.0-alpha.44",
+    "angular2": "2.0.0-alpha.48",
     "express": "4.13.3",
     "gulp": "3.9.0",
-    "gulp-typescript": "2.9.2",
-    "systemjs": "0.19.5",
+    "gulp-typescript": "2.10.0",
+    "systemjs": "0.19.6",
     "typescript": "1.6.2",
     "traceur": "0.0.92"
   }
