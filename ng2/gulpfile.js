@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
+var replace = require('gulp-replace');
 
 gulp.task('ts', function () {
   return gulp.src('app/*.ts')
@@ -9,5 +10,6 @@ gulp.task('ts', function () {
       'experimentalDecorators': true,
       'emitDecoratorMetadata': true
     })).js
+    .pipe(replace('app.ts', 'app.js'))
     .pipe(gulp.dest('./app'));
 });

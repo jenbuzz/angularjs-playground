@@ -10,5 +10,8 @@
     "systemjs": "0.19.6",
     "typescript": "1.6.2",
     "traceur": "0.0.92"
+  },
+  "devDependencies": {
+    "gulp-replace": "^0.5.4"
   }
 }
