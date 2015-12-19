@@ -8,21 +8,21 @@
     <script src="../node_modules/typescript/lib/typescript.js"></script>
 
     <script>
-        System.config({
-            transpiler: 'typescript',
-            typescriptOptions: {
-              emitDecoratorMetadata: true
-            },
-            map: {
-              app: "./app"
-            },
-            packages: {
-              app: {
-                main: './bootstrap.ts',
-                defaultExtension: 'ts'
-              }
-            }
-        });
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: {
+          emitDecoratorMetadata: true
+        },
+        map: {
+          app: "./app"
+        },
+        packages: {
+          app: {
+            main: './bootstrap.ts',
+            defaultExtension: 'ts'
+          }
+        }
+      });
     </script>
 
     <script src="../node_modules/angular2/bundles/angular2.min.js"></script>
@@ -33,7 +33,7 @@
     <app></app>
 
     <script>
-        System.import('bootstrap.ts');
+      System.import('bootstrap.ts');
     </script>
   </body>
 </html>
