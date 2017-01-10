@@ -1,15 +1,15 @@
-import {Component, View} from 'angular2/angular2';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app'
-})
-@View({
+  selector: 'app',
   template: '<h2>Welcome to the Playground Mr. {{ name }}</h2>',
   
   // Example of template file usage
   // templateUrl: 'template.html'
 })
-export class App {
+export class AppComponent {
+  name: string;
+
   constructor() {
     this.name = 'John Doe';
   }
