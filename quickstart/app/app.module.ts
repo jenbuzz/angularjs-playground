@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent }  from './app.component';
+import { WelcomeComponent }  from './welcome.component';
 import { AboutComponent } from './about.component';
 
 @NgModule({
@@ -11,7 +12,12 @@ import { AboutComponent } from './about.component';
     RouterModule.forRoot([
       {
         path: '',
-        component: AppComponent
+        redirectTo: '/welcome',
+        pathMatch: 'full'
+      },
+      {
+        path: 'welcome',
+        component: WelcomeComponent
       },
       {
         path: 'about',
@@ -19,7 +25,7 @@ import { AboutComponent } from './about.component';
       }
     ])
   ],
-  declarations: [ AppComponent, AboutComponent ],
+  declarations: [ AppComponent, AboutComponent, WelcomeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
