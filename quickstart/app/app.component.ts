@@ -3,14 +3,9 @@ import { Person } from './person';
 import { NotesService } from './notes.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  template: `
-    <h1>{{title}}</h1>
-    <h2>Hello {{person.name}}</h2>
-    <ul>
-      <li *ngFor="let note of notes">{{note}}</li>
-    </ul>
-  `,
+  templateUrl: './app.component.html',
   providers: [NotesService]
 })
 export class AppComponent implements OnInit {
