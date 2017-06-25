@@ -1,0 +1,25 @@
+<div class="col-md-12">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>E-Mail</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users" [routerLink]="['/manage/user/'+user.id]">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td class="text-right">
+                    <button md-raised-button color="primary"><i class="fa fa-edit"></i> Edit</button>
+                    <button md-raised-button color="warn"><i class="fa fa-trash-o"></i> Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <router-outlet></router-outlet>
+</div>

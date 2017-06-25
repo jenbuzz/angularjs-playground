@@ -1,0 +1,33 @@
+$fa-font-path: "./../node_modules/font-awesome/fonts";
+
+@import "./../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "./../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_theme";
+@import "./../node_modules/font-awesome/scss/font-awesome";
+
+.loading {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    a, a:hover {
+        color: #666;
+        text-decoration: none;
+    }
+}
+
+.form-horizontal .control-label {
+    text-align: left;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+user {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    background: #ffffff;
+    border-left: 1px solid #eeeeee;
+}
