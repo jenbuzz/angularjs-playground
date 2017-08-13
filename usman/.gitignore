@@ -4,3 +4,4 @@ npm-debug.*
 app/**/*.js
 *.js.map
 css/*.css
+aot/app/
