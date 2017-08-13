@@ -42,8 +42,8 @@ import { userReducer } from './user.reducer';
             }
         ]),
         BrowserAnimationsModule,
-        /*StoreModule.provideStore({ user: userReducer }),
-        StoreDevtoolsModule.instrumentStore({
+        StoreModule.provideStore({ user: userReducer }),
+        /*StoreDevtoolsModule.instrumentStore({
             monitor: useLogMonitor({ 
                 visible: false, 
                 position: 'right' 
