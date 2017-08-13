@@ -5,7 +5,7 @@ import { User } from './user.model';
 import { INIT_USERS } from './user.reducer';
 
 @Component({
-    moduleId: module.id+'',
+    //moduleId: module.id+'',
     selector: 'manage',
     templateUrl: './manage.component.html'
 })

@@ -5,7 +5,7 @@ import { User } from './user.model';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
-    moduleId: module.id+'',
+    //moduleId: module.id+'',
     selector: 'user',
     templateUrl: './user.component.html'
 })

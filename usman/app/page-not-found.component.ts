@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    moduleId: module.id+'',
+    //moduleId: module.id+'',
     selector: 'error-404',
     template: `
     <div class="text-center">
