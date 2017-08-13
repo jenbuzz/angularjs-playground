@@ -4,8 +4,8 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MdButtonModule, MdInputModule } from '@angular/material';
 import { StoreModule } from '@ngrx/store';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { StoreLogMonitorModule, useLogMonitor } from '@ngrx/store-log-monitor';
+//import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+//import { StoreLogMonitorModule, useLogMonitor } from '@ngrx/store-log-monitor';
 
 import { AppComponent } from './app.component';
 import { ManageComponent } from './manage.component';
@@ -42,14 +42,14 @@ import { userReducer } from './user.reducer';
             }
         ]),
         BrowserAnimationsModule,
-        StoreModule.provideStore({ user: userReducer }),
+        /*StoreModule.provideStore({ user: userReducer }),
         StoreDevtoolsModule.instrumentStore({
             monitor: useLogMonitor({ 
                 visible: false, 
                 position: 'right' 
             })
         }),
-        StoreLogMonitorModule,
+        StoreLogMonitorModule,*/
         MdButtonModule,
         MdInputModule
     ],
