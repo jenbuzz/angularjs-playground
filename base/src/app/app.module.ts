@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { InternalFeatureModuleModule } from './internal-feature-module/internal-feature-module.module'; 
 import { AppComponent } from './app.component';
 
 
@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    InternalFeatureModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
