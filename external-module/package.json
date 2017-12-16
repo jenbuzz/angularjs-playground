@@ -12,6 +12,11 @@
     "build:lib": "ng-packagr"
   },
   "private": true,
+  "main": "external-module.js",
+  "typings": "external-module.d.ts",
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "^5.0.0",
