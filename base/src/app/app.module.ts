@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { InternalFeatureModuleModule } from './internal-feature-module/internal-feature-module.module'; 
 import { AppComponent } from './app.component';
 
+import { ExternalModuleModule } from 'external-module/dist';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    InternalFeatureModuleModule
+    InternalFeatureModuleModule,
+    ExternalModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
