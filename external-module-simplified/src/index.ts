@@ -1,24 +1,24 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SampleComponent } from './sample.component';
+import { ExternalModuleSimplifiedComponent } from './external-module-simplified.component';
 
-export * from './sample.component';
+export * from './external-module-simplified.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    SampleComponent
+    ExternalModuleSimplifiedComponent
   ],
   exports: [
-    SampleComponent
+    ExternalModuleSimplifiedComponent
   ]
 })
-export class SampleModule {
+export class ExternalModuleSimplifiedModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: SampleModule
+      ngModule: ExternalModuleSimplifiedModule
     };
   }
 }
