@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'external-module-simplified',
-  template: `<h1>Sample component</h1>`
+  selector: 'external-feature-module-simplified',
+  template: `
+      Hello from external feature module simplified!!
+  `
 })
 export class ExternalModuleSimplifiedComponent {
 

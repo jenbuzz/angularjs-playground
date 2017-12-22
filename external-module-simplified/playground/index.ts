@@ -10,7 +10,7 @@ import { ExternalModuleSimplifiedModule }  from 'external-module-simplified';
 
 @Component({
   selector: 'app',
-  template: `<external-module-simplified></external-module-simplified>`
+  template: `<external-feature-module-simplified></external-feature-module-simplified>`
 })
 class AppComponent {}
 

@@ -5,6 +5,7 @@ import { InternalFeatureModuleModule } from './internal-feature-module/internal-
 import { AppComponent } from './app.component';
 
 import { ExternalModuleModule } from 'external-module';
+import { ExternalModuleSimplifiedModule } from 'external-module-simplified/dist';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ExternalModuleModule } from 'external-module';
   imports: [
     BrowserModule,
     InternalFeatureModuleModule,
-    ExternalModuleModule
+    ExternalModuleModule,
+    ExternalModuleSimplifiedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
