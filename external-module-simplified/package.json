@@ -14,21 +14,10 @@
     "playground": "concurrently \"npm run build:watch\" \"npm run playground:build\" \"npm run lite\"",
     "test": "tsc && karma start"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dan-lyn/angularjs-playground"
-  },
-  "author": {
-    "name": "dan-lyn",
-    "email": "daniel_lynge@hotmail.com"
-  },
   "keywords": [
     "angular"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dan-lyn/angularjs-playground/issues"
-  },
   "devDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",
