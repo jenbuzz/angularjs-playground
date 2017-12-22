@@ -1,0 +1,28 @@
+{
+  "name": "external-module-simplified",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dan-lyn/angularjs-playground"
+  },
+  "author": {
+    "name": "dan-lyn",
+    "email": "daniel_lynge@hotmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan-lyn/angularjs-playground/issues"
+  },
+  "main": "external-module-simplified.umd.js",
+  "module": "external-module-simplified.js",
+  "jsnext:main": "external-module-simplified.js",
+  "typings": "external-module-simplified.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
