@@ -18,6 +18,11 @@
     "angular"
   ],
   "license": "MIT",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@angular/common": "^5.0.0",
     "@angular/compiler": "^5.0.0",

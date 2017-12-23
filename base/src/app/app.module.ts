@@ -5,7 +5,7 @@ import { InternalFeatureModuleModule } from './internal-feature-module/internal-
 import { AppComponent } from './app.component';
 
 import { ExternalModuleModule } from 'external-module';
-import { ExternalModuleSimplifiedModule } from 'external-module-simplified/dist';
+import { ExternalModuleSimplifiedModule } from 'external-module-simplified';
 
 @NgModule({
   declarations: [
