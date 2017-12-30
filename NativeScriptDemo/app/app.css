@@ -18,3 +18,12 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/core.light.css';
+
+TextField {
+    margin: 10;
+    padding: 10;
+}
+Button {
+    margin: 10;
+    padding: 10;
+}

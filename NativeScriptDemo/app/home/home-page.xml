@@ -1,4 +1,4 @@
-<Page class="page"
+<Page class="page" loaded="loaded"
     navigatingTo="onNavigatingTo" 
     xmlns="http://schemas.nativescript.org/tns.xsd">
     
@@ -6,6 +6,12 @@
         <Label class="action-bar-title" text="NativeScriptDemo"></Label>
     </ActionBar>
 
-    <GridLayout>
-    </GridLayout>
+    <StackLayout orientation="vertical">
+        <Image src="res://logo" stretch="none" horizontalAlignment="center" ></Image>
+
+        <TextField id="someText" hint="Write something..." autocorrect="false" autocapitalizationType="none" />
+        <Button text="OK" tap="tapOk" />
+
+        <Image src="~/images/apple.jpg" ></Image>
+    </StackLayout>
 </Page>

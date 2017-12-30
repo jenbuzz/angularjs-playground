@@ -10,3 +10,14 @@ export function onNavigatingTo(args: NavigatedData) {
     const page = <StackLayout>args.object;
     page.bindingContext = new HomeViewModel();
 }
+
+var page;
+
+exports.loaded = function(args) {
+    page = args.object;
+};
+
+exports.tapOk = function() {
+    var someText = page.getViewById("someText");
+    alert("OK: " + someText.text);
+};
