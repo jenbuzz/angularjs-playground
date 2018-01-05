@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ExternalModuleModule } from 'external-module';
 import { ExternalModuleSimplifiedModule } from 'external-module-simplified';
 
+import { MetafrenzyModule } from 'ngx-metafrenzy';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -15,7 +17,8 @@ import { ExternalModuleSimplifiedModule } from 'external-module-simplified';
     BrowserModule,
     InternalFeatureModuleModule,
     ExternalModuleModule,
-    ExternalModuleSimplifiedModule
+    ExternalModuleSimplifiedModule,
+    MetafrenzyModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
