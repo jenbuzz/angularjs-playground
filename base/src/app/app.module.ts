@@ -8,8 +8,7 @@ import { AppComponent } from './app.component';
 import { ExternalModuleModule } from 'external-module';
 import { ExternalModuleSimplifiedModule } from 'external-module-simplified';
 
-import { MetafrenzyModule } from 'ngx-metafrenzy';
-import { MetafrenzyGuard } from 'ngx-metafrenzy';
+import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
 import { importExpr } from '@angular/compiler/src/output/output_ast';
 
 @NgModule({
