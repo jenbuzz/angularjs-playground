@@ -1,7 +1,0 @@
-hooks/
-node_modules/
-platforms/
-report/
-.nsbuildinfo
-app/**/*.js
-npm-debug.log

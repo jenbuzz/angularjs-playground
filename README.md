@@ -8,5 +8,4 @@
 - [Base - Angular 5](https://github.com/dan-lyn/angularjs-playground/tree/master/base)
 - [External Feature Module (angular-cli)](https://github.com/dan-lyn/angularjs-playground/tree/master/external-module)
 - [External Feature Module (yeoman)](https://github.com/dan-lyn/angularjs-playground/tree/master/external-module-simplified)
-- [NativeScript Demo](https://github.com/dan-lyn/angularjs-playground/tree/master/NativeScriptDemo)
 - [NativeScript Angular Demo](https://github.com/dan-lyn/angularjs-playground/tree/master/NativeScriptAngularDemo)
