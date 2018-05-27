@@ -6,7 +6,6 @@ import { InternalFeatureModuleModule } from './internal-feature-module/internal-
 import { AppComponent } from './app.component';
 
 import { ExternalModuleModule } from 'external-module';
-import { ExternalModuleSimplifiedModule } from 'external-module-simplified';
 
 import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
 import { importExpr } from '@angular/compiler/src/output/output_ast';
@@ -19,7 +18,6 @@ import { importExpr } from '@angular/compiler/src/output/output_ast';
     BrowserModule,
     InternalFeatureModuleModule,
     ExternalModuleModule,
-    ExternalModuleSimplifiedModule,
     MetafrenzyModule.forRoot(),
     RouterModule.forRoot([
       {
