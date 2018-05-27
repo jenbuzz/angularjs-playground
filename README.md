@@ -5,7 +5,7 @@
 - [Angular 2 - Quickstart](https://github.com/dan-lyn/angularjs-playground/tree/master/quickstart)
 - [Angular CLI - Webpack](https://github.com/dan-lyn/angularjs-playground/tree/master/webpack)
 - [usman](https://github.com/dan-lyn/angularjs-playground/tree/master/usman)
-- [Base - Angular 5](https://github.com/dan-lyn/angularjs-playground/tree/master/base)
+- [Base - Angular 6](https://github.com/dan-lyn/angularjs-playground/tree/master/base)
 - [External Feature Module (angular-cli)](https://github.com/dan-lyn/angularjs-playground/tree/master/external-module)
 - [External Feature Module (yeoman)](https://github.com/dan-lyn/angularjs-playground/tree/master/external-module-simplified)
 - [NativeScript Angular Demo](https://github.com/dan-lyn/angularjs-playground/tree/master/NativeScriptAngularDemo)
