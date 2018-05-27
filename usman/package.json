@@ -12,7 +12,6 @@
     "tsc:w": "tsc -w"
   },
   "keywords": [],
-  "author": "dan-lyn",
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "~4.3.4",

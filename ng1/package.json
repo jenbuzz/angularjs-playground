@@ -1,10 +1,6 @@
 {
   "name": "angularjsplayground",
   "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dan-lyn/angularjs-playground"
-  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
