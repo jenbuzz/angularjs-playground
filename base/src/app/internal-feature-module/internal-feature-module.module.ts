@@ -10,7 +10,7 @@ import { InternalFeatureModuleComponent } from './internal-feature-module.compon
     InternalFeatureModuleComponent
   ],
   exports: [
-    InternalFeatureModuleComponent  
+    InternalFeatureModuleComponent
   ]
 })
 export class InternalFeatureModuleModule { }

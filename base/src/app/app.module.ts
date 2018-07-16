@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { InternalFeatureModuleModule } from './internal-feature-module/internal-feature-module.module'; 
+import { InternalFeatureModuleModule } from './internal-feature-module/internal-feature-module.module';
 import { AppComponent } from './app.component';
 
 import { ExternalModuleModule } from 'external-module';
@@ -24,7 +24,7 @@ import { importExpr } from '@angular/compiler/src/output/output_ast';
           path: '',
           component: AppComponent,
           canActivate: [MetafrenzyGuard],
-          data: { 
+          data: {
               metafrenzy: {
                   tags: [
                       {
