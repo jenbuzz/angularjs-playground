@@ -1,0 +1,16 @@
+<h2>text component</h2>
+
+<div *ngIf="text | async as t">
+    <h4>{{ t.text }} x {{ t.count }}</h4>
+
+    <div>
+        <input [(ngModel)]="strText">
+        <button (click)="editText()">Change Text</button>
+    </div>
+
+    <div>
+        <button (click)="increment()">Increment</button>
+        <button (click)="decrement()">Decrement</button>
+        <button (click)="reset()">Reset</button>
+    </div>
+</div>
