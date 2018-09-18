@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { InternalFeatureModuleModule } from './internal-feature-module/internal-feature-module.module';
 import { AppComponent } from './app.component';
 
-import { ExternalModuleModule } from 'external-module';
+// import { ExternalModuleModule } from 'external-module';
 
 import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
 
@@ -16,7 +16,7 @@ import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
   imports: [
     BrowserModule,
     InternalFeatureModuleModule,
-    ExternalModuleModule,
+    // ExternalModuleModule,
     MetafrenzyModule.forRoot(),
     RouterModule.forRoot([
       {
