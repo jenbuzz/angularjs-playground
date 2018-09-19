@@ -14,11 +14,15 @@ import { TextComponent } from './text/text.component';
 import { textReducer } from './text/text.reducer';
 import { TextEffects } from './text/text.effects';
 
+import { UserComponent } from './user/user.component';
+import { userReducer } from './user/user.reducer';
+
 @NgModule({
     declarations: [
         AppComponent,
         CounterComponent,
-        TextComponent
+        TextComponent,
+        UserComponent
     ],
     imports: [
         BrowserModule,
@@ -27,6 +31,7 @@ import { TextEffects } from './text/text.effects';
         StoreModule.forRoot({
             count: counterReducer,
             text: textReducer,
+            user: userReducer,
         }),
         StoreDevtoolsModule.instrument(),
     ],
