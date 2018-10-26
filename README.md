@@ -2,7 +2,7 @@
 
 - [AngularJS 1.x](https://github.com/jenbuzz/angularjs-playground/tree/master/ng1)
 - [usman](https://github.com/jenbuzz/angularjs-playground/tree/master/usman)
-- [Base - Angular 6](https://github.com/jenbuzz/angularjs-playground/tree/master/base)
+- [Base - Angular 7](https://github.com/jenbuzz/angularjs-playground/tree/master/base)
 - [External Feature Module (angular-cli)](https://github.com/jenbuzz/angularjs-playground/tree/master/external-module)
 - [External Feature Module (yeoman)](https://github.com/jenbuzz/angularjs-playground/tree/master/external-module-simplified)
 - [NativeScript Angular Demo](https://github.com/jenbuzz/angularjs-playground/tree/master/NativeScriptAngularDemo)
