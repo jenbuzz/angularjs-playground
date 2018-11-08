@@ -22,15 +22,15 @@ const { AppServerModuleNgFactory, LAZY_MODULE_MAP } = require('./dist/base-serve
 const { provideModuleMap } = require('@nguniversal/module-map-ngfactory-loader');
 
 app.engine('html', (_, options, callback) => {
-  renderModuleFactory(AppServerModuleNgFactory, {
-    document: template,
-    url: options.req.url,
-    extraProviders: [
-      provideModuleMap(LAZY_MODULE_MAP)
-    ]
-  }).then(html => {
-    callback(null, html);
-  });
+    renderModuleFactory(AppServerModuleNgFactory, {
+        document: template,
+        url: options.req.url,
+        extraProviders: [
+            provideModuleMap(LAZY_MODULE_MAP)
+        ]
+    }).then(html => {
+        callback(null, html);
+    });
 });
 
 app.set('view engine', 'html');
@@ -43,5 +43,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Node server listening on http://localhost:${PORT}`);
+    console.log(`Node server listening on http://localhost:${PORT}`);
 });
