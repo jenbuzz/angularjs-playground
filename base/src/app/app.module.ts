@@ -14,7 +14,9 @@ import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    // BrowserModule,
+    // For Angular Universal:
+    BrowserModule.withServerTransition({appId: 'my-app'}),    
     InternalFeatureModuleModule,
     // ExternalModuleModule,
     MetafrenzyModule.forRoot(),
