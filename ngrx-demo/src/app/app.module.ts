@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 
 import { AppComponent } from './app.component';
+import { PageComponent } from './page/page.component';
 
 import { CounterComponent } from './counter/counter.component';
 import { counterReducer } from './counter/counter.reducer';
@@ -22,7 +25,8 @@ import { userReducer } from './user/user.reducer';
         AppComponent,
         CounterComponent,
         TextComponent,
-        UserComponent
+        UserComponent,
+        PageComponent
     ],
     imports: [
         BrowserModule,
@@ -32,8 +36,21 @@ import { userReducer } from './user/user.reducer';
             count: counterReducer,
             text: textReducer,
             user: userReducer,
+            router: routerReducer,
         }),
+        RouterModule.forRoot([
+            {
+                path: '',
+                component: AppComponent,
+           
+            },
+            {
+                path: 'page',
+                component: PageComponent,
+            }
+        ]),
         StoreDevtoolsModule.instrument(),
+        StoreRouterConnectingModule.forRoot(),
     ],
     providers: [],
     bootstrap: [AppComponent]
