@@ -8,6 +8,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreRouterConnectingModule, routerReducer } from '@ngrx/router-store';
 
 import { AppComponent } from './app.component';
+import { ExampleComponent } from './example/example.component';
 import { PageComponent } from './page/page.component';
 
 import { CounterComponent } from './counter/counter.component';
@@ -26,7 +27,8 @@ import { userReducer } from './user/user.reducer';
         CounterComponent,
         TextComponent,
         UserComponent,
-        PageComponent
+        PageComponent,
+        ExampleComponent
     ],
     imports: [
         BrowserModule,
@@ -41,7 +43,7 @@ import { userReducer } from './user/user.reducer';
         RouterModule.forRoot([
             {
                 path: '',
-                component: AppComponent,
+                component: ExampleComponent,
            
             },
             {
