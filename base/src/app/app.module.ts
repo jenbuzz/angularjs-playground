@@ -8,15 +8,22 @@ import { AppComponent } from './app.component';
 // import { ExternalModuleModule } from 'external-module';
 
 import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
+import { BabyComponent } from './baby/baby.component';
+import { BigDaddyComponent } from './big-daddy/big-daddy.component';
+import { BastardComponent } from './bastard/bastard.component';
+import { FamilyService } from './family.service';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BabyComponent,
+    BigDaddyComponent,
+    BastardComponent
   ],
   imports: [
-    // BrowserModule,
+    BrowserModule,
     // For Angular Universal:
-    BrowserModule.withServerTransition({appId: 'my-app'}),    
+    // BrowserModule.withServerTransition({appId: 'my-app'}),    
     InternalFeatureModuleModule,
     // ExternalModuleModule,
     MetafrenzyModule.forRoot(),
@@ -44,7 +51,7 @@ import { MetafrenzyModule, MetafrenzyGuard } from 'ngx-metafrenzy';
       }
   ])
   ],
-  providers: [],
+  providers: [FamilyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
