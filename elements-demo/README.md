@@ -1,5 +1,5 @@
 # ElementsDemo
-This is a simple demo of how custom elements are created in Angular 6.
+This is a simple demo of how custom elements are created in Angular 7.
 
 ## Usage
 
