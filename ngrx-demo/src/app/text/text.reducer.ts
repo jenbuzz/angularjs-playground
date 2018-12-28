@@ -1,9 +1,9 @@
 import * as TextActions from './text.actions';
-import { Text } from './text.model'
+import { Text } from './text.model';
 
 export type Action = TextActions.All;
 
-const defaultState: Text = {
+export const defaultState: Text = {
     text: 'Hello World!',
     count: 0,
 }
