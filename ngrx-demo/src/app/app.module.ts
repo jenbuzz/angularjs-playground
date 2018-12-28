@@ -44,7 +44,6 @@ import { userReducer } from './user/user.reducer';
             {
                 path: '',
                 component: ExampleComponent,
-           
             },
             {
                 path: 'page',

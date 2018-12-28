@@ -13,7 +13,7 @@ describe('User Actions', () => {
     describe(UserActionTypes.LoadUser, () => {
         it('should create an LoadUser action', () => {
             const action = new LoadUser(user);
-    
+
             expect({...action}).toEqual({
                 type: UserActionTypes.LoadUser,
                 payload: user,

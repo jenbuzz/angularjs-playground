@@ -19,7 +19,7 @@ export class UserComponent {
         this.user = {
             id: 'testId',
             name: 'testName',
-        }
+        };
     }
 
     loadUser() {

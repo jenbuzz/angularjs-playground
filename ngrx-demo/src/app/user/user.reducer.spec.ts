@@ -6,7 +6,7 @@ describe('User Reducer', () => {
     it('should return the initial state if action is unknown', () => {
         const action = {type: 'default'} as any;
         const state = userReducer(undefined, action);
-  
+
         expect(state).toBe(initialState);
     });
 
@@ -24,7 +24,7 @@ describe('User Reducer', () => {
 
         const action = new LoadUser(testUser);
         const state = userReducer(testState, action);
-  
+
         expect(state.selectedUserId).toEqual('A1');
     });
 });

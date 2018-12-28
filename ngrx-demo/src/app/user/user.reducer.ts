@@ -16,7 +16,7 @@ export const initialState: State = adapter.getInitialState({
 });
 
 export function userReducer(state = initialState, action: UserActionsUnion): State {
-    switch (action.type) {  
+    switch (action.type) {
         case UserActionTypes.LoadUser: {
             console.log('load user');
             return adapter.addOne(action.payload, state);
@@ -27,5 +27,5 @@ export function userReducer(state = initialState, action: UserActionsUnion): Sta
         }
     }
 }
-  
+
 export const getSelectedId = (state: State) => state.selectedUserId;

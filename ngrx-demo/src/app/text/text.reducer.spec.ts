@@ -6,10 +6,10 @@ describe('Text Reducer', () => {
     it('should return the default state if action is unknown', () => {
         const action = {type: 'default'} as any;
         const state = textReducer(undefined, action);
-  
+
         expect(state).toBe(defaultState);
     });
-  
+
     it('should execute EDIT_TEXT', () => {
         const newText = 'Qwerty';
 
@@ -20,7 +20,7 @@ describe('Text Reducer', () => {
 
         const action = new EditText(newText);
         const state = textReducer(testState, action);
-  
+
         expect(state.text).toEqual(newText);
     });
 
@@ -32,7 +32,7 @@ describe('Text Reducer', () => {
 
         const action = new IncrementTextCount();
         const state = textReducer(testState, action);
-  
+
         expect(state.count).toEqual(1);
     });
 
@@ -44,7 +44,7 @@ describe('Text Reducer', () => {
 
         const action = new DecrementTextCount();
         const state = textReducer(testState, action);
-  
+
         expect(state.count).toEqual(0);
     });
 
@@ -56,7 +56,7 @@ describe('Text Reducer', () => {
 
         const action = new ResetTextCount();
         const state = textReducer(testState, action);
-  
+
         expect(state.text).toEqual(defaultState.text);
         expect(state.count).toEqual(defaultState.count);
     });

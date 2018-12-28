@@ -9,11 +9,11 @@ import {
     ResetTextCount,
 } from './text.actions';
 
-describe('Text Actions', () => {  
+describe('Text Actions', () => {
     describe('EDIT_TEXT', () => {
         it('should create an EditText action', () => {
             const action = new EditText('');
-    
+
             expect({...action}).toEqual({
                 type: EDIT_TEXT,
                 payload: '',
@@ -24,7 +24,7 @@ describe('Text Actions', () => {
     describe('INCREMENT_TEXT_COUNT', () => {
         it('should create an IncrementTextCount action', () => {
             const action = new IncrementTextCount();
-    
+
             expect({...action}).toEqual({
                 type: INCREMENT_TEXT_COUNT,
             });
@@ -34,7 +34,7 @@ describe('Text Actions', () => {
     describe('DECREMENT_TEXT_COUNT', () => {
         it('should create an DecrementTextCount action', () => {
             const action = new DecrementTextCount();
-    
+
             expect({...action}).toEqual({
                 type: DECREMENT_TEXT_COUNT,
             });
@@ -44,7 +44,7 @@ describe('Text Actions', () => {
     describe('RESET_TEXT_COUNT', () => {
         it('should create an ResetTextCount action', () => {
             const action = new ResetTextCount();
-    
+
             expect({...action}).toEqual({
                 type: RESET_TEXT_COUNT,
             });
