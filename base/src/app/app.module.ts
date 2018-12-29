@@ -23,7 +23,7 @@ import { FamilyService } from './family.service';
   imports: [
     BrowserModule,
     // For Angular Universal:
-    // BrowserModule.withServerTransition({appId: 'my-app'}),    
+    // BrowserModule.withServerTransition({appId: 'my-app'}),
     InternalFeatureModuleModule,
     // ExternalModuleModule,
     MetafrenzyModule.forRoot(),

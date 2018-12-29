@@ -24,7 +24,7 @@ export class BigDaddyComponent implements OnInit {
 
     hey: string;
 
-    help: string
+    help: string;
 
     constructor(private familyService: FamilyService) {}
 
