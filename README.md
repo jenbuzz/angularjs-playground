@@ -4,6 +4,7 @@
 - [usman - Angular 4](https://github.com/jenbuzz/angularjs-playground/tree/master/usman)
 - [Base - Angular 7](https://github.com/jenbuzz/angularjs-playground/tree/master/base)
 - [Base8 - Angular 8](https://github.com/jenbuzz/angularjs-playground/tree/master/base8)
+- [Base9 - Angular 9](https://github.com/jenbuzz/angularjs-playground/tree/master/base9)
 - [External Feature Module (angular-cli)](https://github.com/jenbuzz/angularjs-playground/tree/master/external-module)
 - [External Feature Module (yeoman)](https://github.com/jenbuzz/angularjs-playground/tree/master/external-module-simplified)
 - [NativeScript Angular Demo](https://github.com/jenbuzz/angularjs-playground/tree/master/NativeScriptAngularDemo)
